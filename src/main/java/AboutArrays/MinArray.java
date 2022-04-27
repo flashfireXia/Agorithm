@@ -13,6 +13,7 @@ public class MinArray {
 }
 
 class Solution3 {
+    /*二分法，时间复杂度O(logN)，空间复杂度O(1)*/
     public int minArray(int[] nums) {
         int left = 0;
         int right = nums.length - 1;
