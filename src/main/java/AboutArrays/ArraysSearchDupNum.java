@@ -6,13 +6,13 @@ import java.util.*;
 public class ArraysSearchDupNum {
     public static void main(String[] args) {
         int[] a = new int[] {2, 3, 1, 0, 2, 5, 3};
-        Solution solution = new Solution();
+        Solution1 solution = new Solution1();
         int res = solution.findRepeatNumber2(a);
         System.out.println(res);
     }
 }
 
-class Solution {
+class Solution1 {
     /*方法1：原地交换——时间复杂度O(N)，空间复杂度O(1)*/
     public int findRepeatNumber(int[] nums) {
         int i = 0;
