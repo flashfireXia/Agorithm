@@ -21,7 +21,7 @@ class Solution3 {
             int mid = left + (right - left) / 2;
             if (nums[mid] > nums[right]) {
                 left = mid + 1;
-            } else if (nums[mid] < nums[left]) {
+            } else if (nums[mid] < nums[right]) {
                 right = mid;
             } else {
                 int x = left;
